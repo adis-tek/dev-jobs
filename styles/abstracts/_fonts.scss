@@ -1,15 +1,23 @@
-// @font-face {
-//   font-family: "Spartan";
-//   src: url("/fonts/Spartan/Spartan-Regular.otf");
-//   font-style: normal;
-//   font-weight: 400;
-//   font-display: swap;
-// }
+@font-face {
+  font-family: "Kumbh Sans";
+  src: url("/fonts/Kumbh-Sans/KumbhSans-Regular.ttf");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
 
-// @font-face {
-//   font-family: "Spartan";
-//   src: url("/fonts/Spartan/Spartan-Bold.otf");
-//   font-style: normal;
-//   font-weight: 700;
-//   font-display: swap;
-// }
+@font-face {
+  font-family: "Kumbh Sans";
+  src: url("/fonts/Kumbh-Sans/KumbhSans-Light.ttf");
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Kumbh Sans";
+  src: url("/fonts/Kumbh-Sans/KumbhSans-Bold.ttf");
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+}
