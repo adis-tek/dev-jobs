@@ -1,10 +1,12 @@
 import { configureStore } from "@reduxjs/toolkit";
 
 import { jobsApi } from "../services/JOBS";
+import { searchJobsAndFilter } from "../features/searchAndFilter";
 
 const store = configureStore({
   reducer: {
     [jobsApi.reducerPath]: jobsApi.reducer,
+    currentSearchJobsAndFilter: searchJobsAndFilter.reducer,
   },
 });
 
